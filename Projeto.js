@@ -10,7 +10,7 @@ class Pessoa{
     // preencher as informações da pessoa
     preencherinformação(){
         this.nome = prompt("Qual o seu nome? ");
-        this.idade = prompt("Qual a sua idade: ");
+        this.idade = prompt("Qual a sua idade? ");
         this.idade = parseInt(this.idade);
         this.cpf = prompt("Qual o seu cpf? ");
         this.endereço = prompt("Qual o seu endereço? ");
